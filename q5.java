@@ -135,7 +135,7 @@ class staff extends employee{
 	
 }
 
-// part g:
+// part f:
 interface salableItem{
 	public abstract void getCopy();
 }
@@ -162,7 +162,7 @@ class ticket implements salableItem{
 	
 }
 
-// part h:
+// part g:
 class person{
 	private String name;
 	private List<watch> listWatch;
