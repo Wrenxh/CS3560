@@ -1,4 +1,5 @@
 package Assignment2;
+// question 1 for Assignment 2
 
 public class student{
 	private String name, major;
