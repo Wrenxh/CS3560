@@ -70,7 +70,7 @@ public class Product {
 		
 	    if (!orders.contains(o)) {
 	    	orders.add(o);
-	    	o.addProduct(this); // Mutual link only if not already added
+	    	o.addProduct(this);
 	    }		
 		
 	}
