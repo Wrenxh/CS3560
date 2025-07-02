@@ -54,7 +54,6 @@ public class MainDelete {
 					stmt.executeUpdate();
 					
 					conection.commit();
-					//conection.rollback();
 			        
 			    }
 				
