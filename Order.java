@@ -85,7 +85,7 @@ public void addProduct(Product p) {
 		
 	    if (!products.contains(p)) {
 	    	products.add(p);
-	        p.addOrders(this); // Mutual link only if not already added
+	        p.addOrders(this);
 	    }		
 		
 	}	
